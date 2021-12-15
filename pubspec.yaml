@@ -1,0 +1,42 @@
+name: speed_code_plant_app
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.15.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  cupertino_icons: ^1.0.2
+  carousel_slider:
+    git:
+      url: https://github.com/camillobucciarelli/flutter_carousel_slider.git
+      ref: feature/expose-clip-behavior
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+  flutter_lints: ^1.0.0
+
+
+flutter:
+
+
+  uses-material-design: true
+
+
+  assets:
+     - asset/icons/cart_icon.png
+     - asset/icons/filter_icon.png
+     - asset/icons/menu_icon.png
+     - asset/images/p_1.png
+     - asset/images/p_2.png
+
